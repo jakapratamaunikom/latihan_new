@@ -15,6 +15,12 @@ echo 'Server Port  : '.$_SERVER['SERVER_PORT'].'<br>';
 	// remote address
 echo 'Remote Address  : '.$_SERVER['REMOTE_ADDR'].'<br>';
 
+	// mendapatkan url atau location file
+echo 'Remote Address  : '.$_SERVER['PHP_SELF'].'<br>';
+
+	// port yang digunakan dalam akses web
+echo 'Remote Address  : '.$_SERVER['SERVER_PORT'].'<br>';
+
 
 
 ?>
