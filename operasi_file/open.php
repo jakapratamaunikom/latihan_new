@@ -8,7 +8,7 @@
 //  w+ : baca dan menulis ke dalam file, pointer di awal file
 //  a  : simpan data ke dalam file, pointer di akhir
 //  a+ : baca dan tulis, pointer  di akhir file
-//  b  : binary digunakan agar file disimpan tidak dbidakan sbg
+//  b  : binary digunakan agar file disimpan tidak dibedakan sbg..
 	  // teks atau biner 
 
 // --------------------------------//
