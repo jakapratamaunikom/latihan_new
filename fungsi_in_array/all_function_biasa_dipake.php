@@ -14,7 +14,7 @@ sort($keboard);
 echo 'Sort (Ascending) : '.implode(' ',$keboard);
 echo '<br>';
 
-// function in_array
+// function in_array 
 	// return value : 1 (true)
 	// return value : 0 (false)
 $cariArayKebord = in_array('asf', $keboard);
