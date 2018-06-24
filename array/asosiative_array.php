@@ -1,4 +1,5 @@
 <?php
+// pemberian nilai asosiative array
 $lampu = array
 	( 'Philips' => '12',
 	  'Neon' => '20',
@@ -27,7 +28,7 @@ $lampu = array
 	echo '<hr>
 			<h2> Menampilkan Associative Array dengan ForEach</h2>
 	';
-
+	// menampilkan array yang punya key dan value enak menggunakan Foreach
 	foreach ($lampu as $merek => $watt) {
 		# code...
 		echo 'Merek : '. $merek. ', Watt : '.$watt;

@@ -5,7 +5,6 @@
 		array('HP', 'I-5',2500000),
 			
 	);
-	// Belum Nemu klo tanpa indeks bagaimana and gabungin pake LOOP {UN-RESOLVED}
 	// REMEMBER !! Array mulai dari indeks [0]
 	/*
 		([0][0], [1][1], [1][2],)
@@ -17,7 +16,6 @@
 		for($i=0; $i<count($laptop); $i++) {
 			# code...
 		echo $laptop[0][0]. ' - '. $laptop[0][1].' - '. $laptop[0][2].'<br>';
-		// echo($laptop[2][0]);
 		
 		}
 ?>
